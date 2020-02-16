@@ -1,1 +1,197 @@
+/*Rules for the header*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 10px;
+    border: 1px solid black;
+    margin-bottom: 30px;
+    background-color: lightgray;
+}
+
+/* rules for the center header */
+#midHeader{
+    margin-top: -30px;
+}
+
+/* Search elements*/
+#searchBoxForm {
+    margin-top: 30px;
+    display: flex;
+}
+#searchBox {
+    height: 20px;
+}
+
+/* Dropdown menu*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.dropdownSelect {
+    width: 189px;
+    padding: 5px;
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+    display: block;
+    border-radius: 5px;
+}
+
+.dropdownContent {
+    display: none;
+    position: absolute;
+    min-width: 200px;
+    padding-top: 5px;
+    z-index: 1;
+    border-radius: 5px;
+    background-color: dodgerblue;
+    text-align: center;
+}
+
+.dropdown:hover .dropdownContent {
+    display: block;
+}
+
+.dropdownContent a {
+    color: white;
+    text-decoration: none;
+}
+
+.dropdownContent a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+/* rules for the right header */
+#rightHeader {
+    display: flex;
+}
+
+/* Rules for cartCount in rightHeader */
+#cartCount{
+    width: 150px;
+   margin: 0 -30px 0 0;
+}
+
+/* Rules for cartIcon in rightHeader */
+#cartIcon{
+    margin: 0 -30px 0 0;
+}
+#cartIcon img{
+    width: 30px;
+    height: 30px;
+}
+
+/* Rules for loginButton in rightHeader */
+#loginButton {
+    background-color: dodgerblue;
+    width: 50px;
+    height: 30px;
+    margin: 0 0 0 0;
+    text-align: center;
+    line-height: 30px;
+}
+#loginButton a{
+    color: white;
+    text-decoration: none;
+}
+#loginButton a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+/*RULES FOR LEFT HEADER*/
+#leftHeader{
+    display: flex;
+    width: 80px;
+    height: 60px;
+    padding-bottom: 0;
+    padding-top: 5px;
+}
+
+#leftHeader img{
+    width: 100px;
+    height: 80px;
+}
+
+#leftHeader p{
+font-size: 13px;
+}
+
+/* RULES FOR MAIN PART */
+section{
+    margin-bottom: 30px;
+}
+
+.parent{
+    display: flex;
+    font-family: arial, sans-serif;
+    border: 1px solid black;
+}
+
+#mainLeft{
+    width: 50%;
+    padding: 2em;
+    color: black;
+    background: deepskyblue;
+    min-height: 500px;
+}
+
+#mainRight{
+    width: 50%;
+    padding: 2em;
+    color: #222;
+    background: dodgerblue;
+    min-height: 500px;
+}
+
+/*Arrange the images as horizontal table */
+#img_category{
+    width: 90%;
+    margin: auto;
+}
+
+#img_category a{
+    text-align: center;
+    width: 16%;
+}
+
+#img_category img{
+    width: 100%;
+    max-width: 150px;
+    padding: 20px;
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    margin-left: 10px;
+    padding: 15px 0;
+    font-size: 0.8em;
+    background-color: lightgray;
+}
+
+#footerLeft {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0 0 10px;
+    width: 300px;
+}
+
+#footerLeft a{
+    padding-top: 12px;
+}
+
+#footerRight {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    width: 180px;
+    padding-top: 12px;
+}
 
