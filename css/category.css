@@ -1,1 +1,206 @@
+/* RULES FOR MAIN PART */
+section{
+    margin-bottom: 30px;
+}
 
+.parentCat{
+    display: flex;
+    font-family: arial, sans-serif;
+    border: 1px solid black;
+}
+
+/*GRID FOR PICTURE ON THE RIGHT*/
+.grid2x2{
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.grid2x2 > div{
+    display: flex;
+    flex-basis: calc(50% - 40px);
+    justify-content: center;
+    flex-direction: column;
+}
+
+.grid2x2 > div > a{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.box{
+    margin: 20px;
+}
+
+.box1{
+    background-color: white;
+}
+.box2{
+    background-color: white;
+}
+
+.box3{
+    background-color: white;
+}
+
+.box4{
+    background-color: white;
+}
+
+/*Books items*/
+div.p-name{
+    padding-top: 15px;
+    font-weight: bold;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+div.p-author{
+    font-size: 0.8em;
+    text-align: center;
+    padding-top: 5px;
+}
+
+div.p-price{
+    font-weight: bold;
+    padding-top: 5px;
+    color: dodgerblue;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+div.p-isbn{
+    padding-top: 5px;
+    color: deepskyblue;
+    font-size: 0.8em;
+    text-align: center;
+}
+div.readNow{
+    padding-top: 5px;
+    color: black;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+button.p-add{
+    background: deepskyblue;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px 0px 0px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+button.p-add a:hover{
+    color: navajowhite;
+    text-decoration: none;
+}
+
+/*MENU in body left*/
+/*General container*/
+#menuLeft{
+    width: 20%;
+    padding: 2em;
+    color: black;
+    background: deepskyblue;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*1st menuButton*/
+#menuButton {
+    background-color: dodgerblue;
+    width: 150px;
+    height: 30px;
+    margin: 4px 10px 30px 0;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 8px;
+}
+
+#menuButton a{
+    color: white;
+    text-decoration: none;
+}
+#menuButton a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+/*Second button left menu */
+#menuButton2 {
+    background-color: dodgerblue;
+    width: 150px;
+    height: 30px;
+    margin: 4px 10px 0 0;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+#menuButton2 a{
+    color: white;
+    text-decoration: none;
+}
+#menuButton2 a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+/*3rd button left menu */
+#menuButton3 {
+    background-color: dodgerblue;
+    width: 150px;
+    height: 30px;
+    margin: 4px 10px 30px 0;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 8px;
+}
+
+#menuButton3 a{
+    color: white;
+    text-decoration: none;
+}
+#menuButton3 a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+/*Fourth button left menu */
+#menuButton4 {
+    background-color: dodgerblue;
+    width: 150px;
+    height: 30px;
+    margin: 4px 10px 30px 0;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 8px;
+}
+
+#menuButton4 a{
+    color: white;
+    text-decoration: none;
+}
+#active, #menuButton4 a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+/*MENU RIGHT*/
+/*General*/
+#menuRight{
+    width: 80%;
+    padding: 2em;
+    color: #222;
+    background: dodgerblue;
+    min-height: 500px;
+}
