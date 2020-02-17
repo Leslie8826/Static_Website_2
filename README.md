@@ -5,10 +5,10 @@ In this project, we create elements and gather materials for a specialty booksto
 
 ## Specific requirements
 ### Requirement 1
-We are required to decide on the specialty of a bookstore that interest us.<br> We choose: Artificial Intelligence.
+We are required to decide on the specialty of a bookstore that interest us.<br> Our bookstore specialty: Artificial Intelligence.
 
 ### Requirement 2
-We are required to choose the name of the bookstore. <br> We choose: The AI Revolution.
+We are required to choose the name of the bookstore. <br> Our bookstore name: The AI Revolution.
 
 ## Output of the static website
 https://leslie8826.github.io/Static_Website_2/index.html
