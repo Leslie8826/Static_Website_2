@@ -37,9 +37,9 @@ We are required to create a static website with:
  - a welcome page: index.html 
  - a page for the books and categories: category.html
  - a header with: 
-   -- the image logo and a logo text that link to index.html
-   -- a category dropdown menu that will link to a single category page
-   -- the shopping cart and log in button are just for show (they are not implemented at this stage)
+   * the image logo and a logo text that link to index.html
+   * a category dropdown menu that will link to a single category page
+   * the shopping cart and log in button are just for show (they are not implemented at this stage)
    
 
 <br><br><br>
