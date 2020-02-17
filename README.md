@@ -1,7 +1,7 @@
 # Static_Website_2
 
 ## Overall requirements
-In this project, we create elements and gather materials for a specialty bookstore.
+In this project, we create elements and gather materials for a specialty bookstore. We also create the first 2 pages of an online bookstore using HTML and CSS only. It is recommended to use flexboxes in some sections of the website (the book section on the category page for example).
 <br><br><br>
 ## Specific requirements
 ### Requirement 1
@@ -38,6 +38,9 @@ We are required to create a static website with:
    * a the left-hand section containing a welcome text 
    * a right-hand section showcasing the categories with all 4 category images
  - a page for the books and categories: category.html
+   * on the left: the categories of the bookstore. The selected categories from the index page should be styled differently than the non-selected categories.
+   * on the right: the 4 books corresponding to the each category. The books should be on multiple rows. On each book, there should be details such as title, author, price and "Add to cart" button. 
+   
  - a header with: 
    * the image logo and a logo text that link to index.html
    * a category dropdown menu that will link to a single category page
