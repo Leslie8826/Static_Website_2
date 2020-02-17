@@ -34,13 +34,19 @@ We are required to find an image of 4 least 4 books for each category on alibris
 
 ### requirement 8
 We are required to create a static website with:
- - a welcome page: index.html 
+ - a welcome page: index.html with
+   * a the left-hand section containing a welcome text 
+   * a right-hand section showcasing the categories with all 4 category images
  - a page for the books and categories: category.html
  - a header with: 
    * the image logo and a logo text that link to index.html
    * a category dropdown menu that will link to a single category page
    * the shopping cart and log in button are just for show (they are not implemented at this stage)
-   
+ - a footer with
+   * Contact us: it should act a link and is not implemented at this stage
+   * Directions: it should link to Google Maps (a chosen midtow location in NYC)
+   * Social Media: at least 3 icons. They are not implemented at this stage
+ - 
 
 <br><br><br>
 ## Output of the static website
