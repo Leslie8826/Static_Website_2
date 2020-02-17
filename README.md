@@ -31,6 +31,10 @@ We are required to find an image for each category. The size of each image shoul
 
 ### Requirement 7
 We are required to find an image of 4 least 4 books for each category on alibris.com website. The size of each image should be the same: long edge of the image should be 150-200 pixels.
+
+### requirement 8
+We are required to create a welcome page (index.html) as well as a page for the books and categories.
+
 <br><br><br>
 ## Output of the static website
 https://leslie8826.github.io/Static_Website_2/index.html
