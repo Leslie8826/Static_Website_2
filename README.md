@@ -20,8 +20,10 @@ We are required to find:
  - at least 3 social media icons: 30-35 pixels on each side
  
 ### Requirement 5
-<br> We are required to choose 4 different categories of books for the store:
+We are required to choose 4 different categories of books for the store:
+ - sdasdas
  - 
+
 
 
 
