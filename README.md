@@ -21,8 +21,16 @@ We are required to find:
  
 ### Requirement 5
 We are required to choose 4 different categories of books for the store:
- - sdasdas
- - 
+ - AI in Robotics
+ - AI in Education
+ - AI in Finance
+ - AI in Medicine
+ 
+### Requirement 6
+We are required to find an image for each category. The size of each image should be the same: no greater than 175 pixels on each side.
+
+### Requirement 7
+We are required to find an image of 4 least 4 books for each category on alibris.com website. The size of each image should be the same: long edge of the image should be 150-200 pixels.
 
 
 
